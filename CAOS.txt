@@ -1,0 +1,14 @@
+cache
+RAM
+HDD
+
+
+BUS CPU MEM
+
+
+synchronization system
+
+MEM -> 8 bits
+
+Central MEM
+Register
