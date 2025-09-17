@@ -1,1 +1,4 @@
 GPS/GNSS definition
+
+Real Time , Moving/Kinematic
+Post-Processing, Static/Session
