@@ -2,3 +2,7 @@ GPS/GNSS definition
 
 Real Time , Moving/Kinematic
 Post-Processing, Static/Session
+
+
+Indoor: server-detected technologies are used (e.g. Wi-Fi, Bluetooth, UWB).
+Outdoor: GNSS could be powerful for positioning.
