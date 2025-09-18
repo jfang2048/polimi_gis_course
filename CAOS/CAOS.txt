@@ -12,3 +12,29 @@ MEM -> 8 bits
 
 Central MEM
 Register
+
+
+        ↑
+        |
+    High Memory Address
+        |
++----------------------+
+|                      |  ← Stack
+|  Grows Downwards     |    - Stores local variables, function parameters
+|                      |
++----------------------+
+|                      |
+|  Grows Upwards       |    ← Heap
+|                      |    - Used for dynamic memory allocation (malloc, calloc)
++----------------------+
+|  .bss (Uninitialized)|    - Uninitialized global and static variables (defaulted to 0)
++----------------------+
+|  .data (Initialized) |    - Initialized global and static variables
++----------------------+
+|                      |
+|  .text (Code)        |    - Program's machine instructions (read-only)
+|                      |
++----------------------+
+    Low Memory Address
+        |
+        ↓
